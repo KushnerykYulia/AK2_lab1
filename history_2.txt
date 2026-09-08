@@ -1,0 +1,11 @@
+    1  history -w
+    2  ping google.com > /dev/null &
+    3  jobs
+    4  fg
+    5  ps aux | grep ping
+    6  kill -TERM 12064
+    7  ps aux | grep ping
+    8  kill 13235
+    9  sudo kill -9 13235
+   10  sudo pkill vlc
+   11  history > history_2.txt

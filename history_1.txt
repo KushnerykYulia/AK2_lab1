@@ -1,0 +1,115 @@
+    1  history -w
+    2  history -w
+    3  uname -a
+    4  sudo apt update
+    5  sudo apt upgrade
+    6  sudo dpkg --configure -a
+    7  sudo apt upgrade
+    8  cat /etc/apt/source.list
+    9  cat /etc/apt/sources.list
+   10  sudo apt install vim
+   11  cd ~/Downloads
+   12  cd
+   13  man ls
+   14  ls -l
+   15  mkdir -p package/DEBIAN
+   16  nano package/DEBIAN/control
+   17  mkdir -p package/usr/local/bin/
+   18  nano package/usr/local/bin/Hi.py
+   19  chmod +x package/usr/local/bin/Hi.py
+   20  dpkg-deb --build package
+   21  nano package/DEBIAN/control
+   22  dpkg-deb --build package
+   23  nano package/DEBIAN/control
+   24  dpkg-deb --build package
+   25  dpkg -i package.deb
+   26  sudo dpkg -i package.deb
+   27  Hi
+   28  sudo chmod +x /usr/local/bin/Hi.py
+   29  Hi.py
+   30  cd /
+   31  sudo su
+   32  echo "hi all"
+   33  echo "$PWD hi all here!"
+   34  cd
+   35  touch hi.sh
+   36  echo $PATH
+   37  vi hi.sh
+   38  ./hi.sh
+   39  chmod a+x hi.sh
+   40  chmod a+rwx hi.sh
+   41  ./hi.sh
+   42  vi hi.sh
+   43  ./hi.sh Ukraine
+   44  cp hi.sh scripts/
+   45  mkdir scripts
+   46  cp hi.sh scripts/
+   47  cp scripts ~/Documents/
+   48  cp -r scripts ~/Documents/
+   49  cd scripts
+   50  mv hi.sh ..
+   51  cd ..
+   52  rm scripts
+   53  rm -r scripts
+   54  cd /bin
+   55  ls -l
+   56  cd ../..
+   57  mkdir scripts
+   58  cd
+   59  mkdir scripts
+   60  cp hi.sh scripts/
+   61  tar -cvf scripts.tar scripts/
+   62  cat hi.sh
+   63  cat /var/log/syslog
+   64  sudo cat /var/log/syslog
+   65  sudo tail -n 20 /var/log/syslog
+   66  sudo less /var/log/syslog
+   67  cd /
+   68  cd 
+   69  cd /
+   70  find . -name "dhcp"
+   71  find . -name "*dhcp*"
+   72  find . -name "*dhcp*" | grep -i --color=auto "dhcp"
+   73  find . -name "*dhcp*" | grep -i --color=auto "etc"
+   74  ping google.com
+   75  ping google.com >> ping.log & date > date.log
+   76  cd 
+   77  ping google.com >> ping.log & date > date.log
+   78  cat ping.log
+   79  cat date.log
+   80  sudo ping google.com
+   81  which vlc
+   82  which mpv
+   83  which mplayer
+   84  sudo apt install vlc
+   85  vlc
+   86  ls -l
+   87  cd /bin
+   88  ls
+   89  echo $PATH
+   90  set
+   91  whoami
+   92  cd /etc
+   93  ls
+   94  cd ..
+   95  cd lib
+   96  ls
+   97  dmesg
+   98  sudo dmesg
+   99  ls /dev
+  100  sudo dmesg -c
+  101  sudo dmesg | tail
+  102  sudo dmesg
+  103  df -h
+  104  cd /home
+  105  ls -l
+  106  lsmod
+  107  cd /proc
+  108  cat /proc/cpuinfo
+  109  echo 1 > /proc/sys/net/ipv4/ip_forward
+  110  sudo sh -c 'echo 1 > /proc/sys/net/ipv4/ip_forward'
+  111  sudo su
+  112  cd
+  113  mv history.txt ~/Desktop/
+  114  sudo cp /root/history.txt ~/Desktop/
+  115  history > history.txt
