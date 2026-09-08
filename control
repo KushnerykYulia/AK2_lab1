@@ -1,0 +1,6 @@
+Package: package
+Version: 1.0
+Architecture: all
+Maintainer: Yuliia Kushneryk
+Description: A Python program that print the "Hi"
+	A package for learning.
