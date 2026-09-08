@@ -1,0 +1,12 @@
+  318  exit
+  319  ip a
+  320  ip link show
+  321  cd
+  322  echo "Vika" > 1.txt
+  323  cat 1.txt
+  324  echo "Vasya" > 2.txt
+  325  cat 2.txt
+  326  diff 1.txt 2.txt
+  327  history
+  328  lspci
+  329  history > history.txt
